@@ -1,10 +1,11 @@
 import React from "react";
 import "./homepage.css";
 import { Link } from "react-router-dom";
-
+import Footer from "./footer";
 const Home = () => {
   const logo = require('./loginSignin/logo.png');
   return (
+    <div>
     <div className="container">
       <a href="#menu">
         <h1 style={{ fontSize: "100px", color: "#d4ff59" }}>GamEd. </h1>
@@ -49,6 +50,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 };

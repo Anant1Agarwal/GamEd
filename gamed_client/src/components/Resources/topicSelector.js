@@ -5,6 +5,7 @@ import './topicSelector.css';
 
 import { Link } from 'react-router-dom';
 import BackButton from '../back';
+import Footer from '../footer';
 
 const TopicSelector = () => {
 
@@ -28,7 +29,12 @@ const TopicSelector = () => {
         
         {/* Add more buttons for other topics as needed */}
       </div>
-    </div></div>
+    </div>
+    
+    
+    <Footer/>
+    </div>
+
   );
 };
 

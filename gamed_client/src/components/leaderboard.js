@@ -246,6 +246,7 @@ import React, { useState, useEffect } from "react";
 import '../styles/leaderboard.css';
 import axios from '../axios';
 import BackButton from "./back";
+import Footer from "./footer";
 
 const Leaderboard = () => {
 
@@ -304,7 +305,9 @@ const Leaderboard = () => {
           )}
         </div>
       </div>
-    </div></div>
+    </div>
+    <Footer/>
+    </div>
   );
 };
 

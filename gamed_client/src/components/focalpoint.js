@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import './focal.css';
 import BackButton from './back';
-
+import Footer from './footer';
 function Focal() {
   const [workTime, setWorkTime] = useState(25);
   const [breakTime, setBreakTime] = useState(5);
@@ -69,7 +69,9 @@ function Focal() {
           style={{ color: 'black' }} 
         />
       </div>
-    </div></div>
+    </div>
+    <Footer/>
+    </div>
   );
 }
 

@@ -5,6 +5,7 @@ import YouTube from 'react-youtube'; // Import the react-youtube component
 import './TopicResources.css';
 import SpotifyModal from "./SpotifyModal";
 import BackButton from "../back";
+import Footer from "../footer";
 const TopicResources = () => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -50,7 +51,9 @@ const TopicResources = () => {
         <button className="quiz-button">Generate Summary</button></Link> */}
 
       </div>
-    </div></div>
+    </div>
+    <Footer/>
+    </div>
   );
 };
 

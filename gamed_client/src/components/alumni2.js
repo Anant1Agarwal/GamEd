@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/alumni2.css'; // Import your CSS file
 import BackButton from './back';
+import Footer from './footer';
 function Alumni() {
   const logo = require('./loginSignin/logo.png');
   const man= require('./manprofile.png');
@@ -52,7 +53,7 @@ function Alumni() {
        </div>
       {/* <button className="btnal">UNLOCK PREMIUM</button>*/ }
       
-
+    <Footer/>
     </div> 
   );
 }
